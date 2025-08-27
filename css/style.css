@@ -1,0 +1,19 @@
+h1{
+    color: red;
+}
+p{
+    color: green;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left; /*căn chữ đều 2 bên trai phải*/
+    line-height: 1.5; /*kc giữa các dòng*/
+    text-transform: none; /*chuyển chữ thường thành chữ hoa*/
+    text-decoration: none; /*gạch chân chữ hoặc gạch ngang các thứ*/
+    font-weight: 400; /*độ đậm nhạt chữ*/
+    word-spacing: 1px; /*kc giữa các chữ*/
+    width: 600px; /*độ dài đoạn văn*/
+    background-color: rgb(255, 255, 255); /*màu nền */
+    border-bottom: 1px solid rgb(1, 1, 1); /*gạch kết thúc đoạn văn trong <p>*/
+
+
+}
