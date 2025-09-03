@@ -1,0 +1,23 @@
+div{
+    width: calc(25% - 20px); /* -2px border, 20px margin, 20px padding tổng 42px */
+    float: left;
+    /*cho các div đứng cạnh nhau bên trái*/
+    border: 1px solid green;
+    margin: 10px; /*kc giữa các div*/
+    padding: 10px;  /*kc giữ viền và nội dung*/
+    box-sizing: border-box; /*bao gồm cả boder và padding của thẻ */
+    border-radius: 5px; /*bo tròn góc*/
+    background-color: rgb(103, 192, 103);
+}
+div:hover{
+    background-color: beige; /*màu nền khi rê chuột */
+    transform: rotate(45deg); /*phóng to 1 xíu khi rê chuột*/
+    transition: all 0.3s ease;
+}
+img{
+    max-width: 100%; 
+    /*cho ảnh về kích thước của thẻ cha nếu vượt quá*/
+}
+.special{
+    background-color: antiquewhite;
+} /*đặc biệt của thẻ div*/
