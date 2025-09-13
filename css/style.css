@@ -11,7 +11,7 @@ p{
     text-decoration: none; /*gạch chân chữ hoặc gạch ngang các thứ*/
     font-weight: 400; /*độ đậm nhạt chữ*/
     word-spacing: 1px; /*kc giữa các chữ*/
-    width: 600px; /*độ dài đoạn văn*/
+    width: 300px; /*độ dài đoạn văn*/
     background-color: rgb(255, 255, 255); /*màu nền */
     border-bottom: 1px solid rgb(1, 1, 1); /*gạch kết thúc đoạn văn trong <p>*/
 

@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: rgb(90, 89, 89);
+    text-decoration: underline;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    color: rgb(19, 19, 19);
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+}
+p{
+    margin-bottom: 0.75rem;
+}
+.section{
+    float: left;
+    width: 100%;
+}
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+.footer,
+.footer a{
+    background-color: black;
+    color: white;
+}
+.two,
+.two a{
+    background-color: black;
+    color: white;
+}
+ul li{
+    list-style: none;
+    float: left;
+    margin-left: 13px;
+    font-size: 11px;
+}
+.header .container{
+    width: 100%;
+}
+.brand{
+    float: left;
+    width:33%;
+    height: 60px;
+}
+.brand.header ul{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+    margin-left: 10px;
+}
+.brand.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.brand.logo img{
+    width: 130px;
+}
+.brand .account.search{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+}
+.brand.search{
+    display: flex;
+    align-items: center;
+}
+.account.search{
+    flex: 1;
+}
+.account.search .form-group input::placeholder{
+    color: black;
+    opacity: 1;
+}
+.account.search input[name="search"]{
+    padding: 15px;
+    border: 1px solid rgb(233, 233, 233);
+    border-radius: 30px;
+    width: 100px;
+    height: 35px;
+    background-color: rgb(233, 233, 233);
+    font-size: 9px;
+}
+.account.logo-mini{
+    margin-right: 10px;
+}
+.account.logo-mini img{
+    margin-left: 30px;
+    height: 20px;
+}
+.nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+span.line{
+    display: inline-block;
+    border-bottom: 1px solid rgb(196, 196, 196);
+    width: 100%;
+}
+.nav .container{
+    width: 100%;
+}
+.one .container,
+.two .container,
+.footer .container{
+    width: 100%;
+}
+.one p{
+    font-size: 10px;
+}
+.one span{
+    margin: 0px 5px;
+}
+.two .container{
+    display: flex;
+    border-bottom: 1px solid rgb(92, 92, 92);
+    margin-bottom: 50px;
+}
+.two .logo{
+    display: flex;
+    width: 33%;
+    height: 170px;
+    justify-content: center;
+    align-items: center;
+}
+.two .logo.left{
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+.two .logo.middle{
+    display: flex;
+    flex-direction: column;
+}
+.two .logo.middle p{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 10px;
+    width: 80px;
+}
+.two .logo.right{
+    justify-content: flex-end;
+    margin-right: 50px;
+}
+.two .logo.right a{
+    word-spacing: 5px;
+    font-size: 10px;
+    margin-right: 5px;
+}
+.two .logo.right img{
+    width: 20px;
+}
+.footer .container{
+    box-sizing: border-box;
+    padding: 0px 50px;
+    display: flex;
+    height: 340px;
+}
+.footer .foot{
+    width: 20%;
+}
+.footer .foot.foot-sendemail{
+    display: flex;
+    flex-direction: column;
+}
+.footer .foot.foot-sendemail .email{
+    margin-bottom: 20px;
+}
+.footer .email .form-group{
+    flex: 1;
+    display: flex;
+}
+.footer .email .form-group input{
+    width:78%;
+    background-color: black;
+    height: 40px;
+    border: 1px solid white;
+    border-radius: 8px;
+    padding: 12px;
+    margin-right: 3px;
+    color: white;
+}
+.footer .email .form-group input::placeholder{
+    color: white;
+    font-size: 9px;
+}
+.footer .email .form-group button{
+    width: 20%;
+    border-radius: 8px;
+    border: 1px solid white;
+}
+.footer h4{
+    margin-bottom: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    color: azure;
+}
+.footer a{
+    font-size: 10px;
+    color: rgb(129, 129, 130);
+}
+.footer h6{
+    margin-top: 50px;
+    font-weight: 400;
+    color: rgb(129, 129, 130);
+}
+.footer h2{
+    font-size: 21px;
+    font-weight: 470;
+}

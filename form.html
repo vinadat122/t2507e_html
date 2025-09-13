@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEmo form</title>
+    <link rel="stylesheet" href="css/form.css"/>
+</head>
+<body>
+    <section class="section form-demo">
+        <div class="container">
+            <form action="#" method="get">
+                <div class="form-group">
+                    <label>Full name</label>
+                    <input type="text" name="full_name" placeholder="Enter your name..." required/>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="cust_email" placeholder="Enter your email..." required/>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="cust_password" placeholder="Enter your password..." required/>
+                </div>
+                <div class="form-group">
+                    <label>Date of birth</label>
+                    <input type="date" name="dob" placeholder="Enter your date of birth..."/>
+                </div>
+                <div class="form-group">
+                    <label>Time</label>
+                    <input type="time" name="time" placeholder="Enter your time..."/>
+                </div>
+                <div class="form-group">
+                    <label>Color</label>
+                    <input type="color" name="color" placeholder="Enter your color..."/>
+                </div>
+                <div class="form-group">
+                    <label>Phone number</label>
+                    <input type="tel" name="phone number" placeholder="Enter your phone number..."/>
+                </div>
+                <div class="form-group">
+                    <label>Age</label>
+                    <input type="number" name="number" placeholder="Enter your number..."/>
+                </div>
+                <div class="form-group">
+                    <label>Gender</label>
+                    <label><input type="radio" name="sex" value="male"/> Male</label>
+                    <label><input type="radio" name="sex" value="female"/> Female</label>
+                    <label><input type="radio" name="sex" value="other"/> Other</label>
+                </div>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" name="conditions"/>
+                        I am ready!
+                    </label>
+                </div>
+                <div class="form-group">
+                    <label>Country</label>
+                    <select name="country">
+                        <option value="vietnam">Việt Nam</option>
+                        <option value="canada">Canada</option>
+                        <option value="us">Mỹ</option>
+                        <option value="uk">Anh</option>
+                        <option value="korea">Hàn Quốc</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Profile</label>
+                    <textarea name="profile" placeholder="Profile..."></textarea>
+                </div>
+                <div class="form-group">
+                    <button onclick="return confirm('Submit data?')" type="submit">Send data</button>
+                    <button onclick="return confirm('Are you sure?')" type="reset">Reset data</button>
+                    <button type="button">Button</button>
+                </div>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

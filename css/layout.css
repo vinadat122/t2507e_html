@@ -1,0 +1,53 @@
+*{ /*chung style cho tất cả phần tử*/
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none; /*không gạch chân gì*/
+}
+a:hover{/*set màu cho hover khi rê chuột */
+    color: rgb(81, 139, 231);
+}
+body{
+    background-color: rgb(228, 223, 217);
+    color: #1e1e1e;
+    font-size: 14px; /*ĐỘ CAO TIÊU CHUẨN*/
+    font-weight: 400;/*400 là phổ biến*/
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+}
+p{
+    margin-bottom: 0.75rem;/*khoảng cách các dòng x0,75 với độ cao tiêu chuẩn của nội dung (14px bên trên)*/
+}
+/*layout*/
+/*style section*/
+.section{
+    float: left;
+    width: 100%; /*để xóa section nào đó nó tự đẩy lên không bị chèn do nó chiếm 100% rồi*/
+}
+.container{ /*không sửa gì mặc định để như vậy: tạo 1 hộp nội dung giữa các section*/
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+/*hết layout*/
+.nav{
+    background-color: green;
+}
+.nav ul li{
+    float: left;
+    list-style: none;
+    margin-right: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.nav li a{
+    color: antiquewhite;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav ul li.login{ /*class con thì .viết liền*/
+    float: right;
+}

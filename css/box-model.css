@@ -15,7 +15,8 @@ div:hover{
     transition: all 0.3s ease;
 }
 img{
-    max-width: 100%; 
+    max-width: 50%; 
+    text-align: center;
     /*cho ảnh về kích thước của thẻ cha nếu vượt quá*/
 }
 .special{
