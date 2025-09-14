@@ -55,40 +55,50 @@
             <div class="main-p1">
                 <p>Create an account</p>
             </div>
-            <div class="form-group-main">
-                <select name="Gender">
-                    <option value="Male">Male</option>
-                    <option value="Female">Female</option>
-                    <option value="Other">Other</option>
-                </select>
-            </div>
-            <div class="form-group-main">
-               <input type="text" name="first_name" placeholder="FIRST NAME*" required/>
-            </div>
-            <div class="form-group-main">
-               <input type="text" name="last_name" placeholder="LAST NAME*"/>
-            </div>
-            <div class="form-group-main">
-               <input type="email" name="cust_email" placeholder="EMAIL ADDRESS" required/>
-            </div>
-            <div class="form-group-main">
-               <input type="password" name="cust_password" placeholder="PASSWORD" required/>
-            </div>
-            <div class="main-p2">
-                <p>*Required fields</p>
-                <p class="mini">This form is protected by 
-                    reCAPTCHA - the <u>Google Privacy Policy</u> and <u>Terms of Service</u> apply.
-                </p>
-            </div>
-            <div class="form-group-main click">
-                <div class="label1">
-                    <label><input type="radio" name="click notice" value="notice" required/>I have read and understood the <u>privacy notice</u>*</label>
+            <form action="#" method="get">
+                <div class="form-group-main">
+                    <select name="Gender">
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                        <option value="Other">Other</option>
+                    </select>
                 </div>
-                <div class="label2">
-                    <label><input type="radio" name="agree notice" value="agree"/>I agree that TISSOT sends me its newsletter via email and consent that TISSOT processes my personal data for this purpose.
-                 I confirm to have read and understood the <u>privacy notice</u>.</label>
+                <div class="form-group-main">
+                    <input type="text" name="first_name" placeholder="FIRST NAME*" required/>
                 </div>
-            </div>
+                <div class="form-group-main">
+                    <input type="text" name="last_name" placeholder="LAST NAME"/>
+                </div>
+                <div class="form-group-main">
+                    <input type="email" name="cust_email" placeholder="EMAIL ADDRESS*" required/>
+                </div>
+                <div class="form-group-main">
+                    <input type="password" name="cust_password" placeholder="PASSWORD*" required/>
+                </div>
+                <div class="main-p2">
+                    <p>*Required fields</p>
+                    <p class="mini">This form is protected by 
+                        reCAPTCHA - the <u>Google Privacy Policy</u> and <u>Terms of Service</u> apply.
+                    </p>
+                </div>
+                <div class="form-group-main">
+                    <div class="label">
+                        <label><input type="checkbox" name="click notice" value="notice" required/>
+                            <span>I have read and understood the <a href="#"><u>privacy notice*</u></a></span>
+                        </label>
+                    </div>
+                    <div class="label">
+                        <label><input type="checkbox" name="agree notice" value="agree"/>
+                            <span>I agree that TISSOT sends me its newsletter via email and consent that TISSOT processes my personal data for this purpose.
+                            I confirm to have read and understood the <a href="#"><u>privacy notice.</u></a></span>
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group-main">
+                    <button type="submit">CREATE ACCOUNT</button>
+                </div>
+                <div class="main-p2">
+            </form>
         </div>
     </main>
     <section class="section one">
@@ -156,7 +166,7 @@
                     <form action="#" method="get">
                         <div class="form-group">
                             <input type="email" name="customer-email" placeholder="EMAIL  ADDRESS" required/>
-                            <button onclick="return" type="submit">Join</button>
+                            <button type="submit">Join</button>
                         </div>
                     </form>
                 </div>

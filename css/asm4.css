@@ -11,6 +11,12 @@ a:hover{
     color: rgb(90, 89, 89);
     text-decoration: underline;
 }
+button{
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(117, 117, 117);
+}
 body{
     background-color: rgb(255, 255, 255);
     color: rgb(19, 19, 19);
@@ -88,12 +94,12 @@ ul li{
     opacity: 1;
 }
 .account.search input[name="search"]{
-    padding: 25px;
+    padding: 20px;
     border: 1px solid rgb(242, 242, 242);
     border-radius: 30px;
     width: 130px;
     height: 43px;
-    background-color: rgb(245, 243, 243);
+    background-color: rgb(240, 239, 239);
     font-size: 12px;
 }
 .account.logo-mini{
@@ -151,12 +157,38 @@ span.line{
 }
 .main .main-p2 p{
     font-size: 12px;
+    margin-bottom: 15px;
 }
 .main .main-p2 .mini{
     font-size: 9px;
+    margin-bottom: 25px;
 }
-.main .form-group-main input[type="radio"]{
-    width: 20px;
+.main .form-group-main label{
+    display: flex;
+    align-items:flex-start;
+    gap: 7px;
+    margin-bottom: 25px;
+}
+.main .label input[type="checkbox"]{
+    width: 13px;
+    height: 13px;
+    margin: 0px;
+}
+.main .label span{
+    font-size: 12px;
+}
+.main button[type="submit"]{
+    background-color: black;
+    height: 50px;
+    width: 420px;
+    border-radius: 30px;
+    color: white;
+    font-size: 13px;
+    font-weight: 550;
+}
+.main button[type="submit"]:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;          
 }
 .one .container,
 .two .container,
@@ -165,6 +197,8 @@ span.line{
 }
 .one p{
     font-size: 12px;
+    margin-left: 25px;
+    margin-top: 50px;
 }
 .one span{
     margin: 0px 5px;
