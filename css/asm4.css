@@ -45,7 +45,7 @@ ul li{
     list-style: none;
     float: left;
     margin-left: 13px;
-    font-size: 11px;
+    font-size: 14px;
 }
 .header .container{
     width: 100%;
@@ -68,7 +68,7 @@ ul li{
     align-items: center;
 }
 .brand.logo img{
-    width: 130px;
+    width: 180px;
 }
 .brand .account.search{
     display: flex;
@@ -88,20 +88,20 @@ ul li{
     opacity: 1;
 }
 .account.search input[name="search"]{
-    padding: 15px;
-    border: 1px solid rgb(233, 233, 233);
+    padding: 25px;
+    border: 1px solid rgb(242, 242, 242);
     border-radius: 30px;
-    width: 100px;
-    height: 35px;
-    background-color: rgb(233, 233, 233);
-    font-size: 9px;
+    width: 130px;
+    height: 43px;
+    background-color: rgb(245, 243, 243);
+    font-size: 12px;
 }
 .account.logo-mini{
     margin-right: 10px;
 }
 .account.logo-mini img{
-    margin-left: 30px;
-    height: 20px;
+    margin-left: 40px;
+    height: 25px;
 }
 .nav ul{
     display: flex;
@@ -117,13 +117,54 @@ span.line{
 .nav .container{
     width: 100%;
 }
+.main .container{
+    display: flex;
+    flex-direction: column;
+    width: 420px;
+}
+.main .main-p1{
+    margin: 40px;
+    text-align: center;
+    font-size: 27px;
+    font-weight: 450;
+}
+.main .form-group-main select{
+    padding: 10px;
+    height: 50px;
+    width: 420px;
+    border-radius: 7px;
+    border: 1px solid rgb(94, 94, 94);
+    color: black;
+    margin-bottom:15px;
+}
+.main .form-group-main input{
+    padding: 15px;
+    height: 50px;
+    width: 420px;
+    border-radius: 7px;
+    border: 1px solid rgb(94, 94, 94);
+    color: black;
+    margin-bottom:15px;
+}
+.main .form-group-main input::placeholder{
+    font-size: 12px;
+}
+.main .main-p2 p{
+    font-size: 12px;
+}
+.main .main-p2 .mini{
+    font-size: 9px;
+}
+.main .form-group-main input[type="radio"]{
+    width: 20px;
+}
 .one .container,
 .two .container,
 .footer .container{
     width: 100%;
 }
 .one p{
-    font-size: 10px;
+    font-size: 12px;
 }
 .one span{
     margin: 0px 5px;
@@ -149,9 +190,9 @@ span.line{
     flex-direction: column;
 }
 .two .logo.middle p{
-    margin-top: 10px;
+    margin-top: 13px;
     text-align: center;
-    font-size: 10px;
+    font-size: 13px;
     width: 80px;
 }
 .two .logo.right{
@@ -160,8 +201,8 @@ span.line{
 }
 .two .logo.right a{
     word-spacing: 5px;
-    font-size: 10px;
-    margin-right: 5px;
+    font-size: 13px;
+    margin-right: 7px;
 }
 .two .logo.right img{
     width: 20px;
@@ -189,7 +230,7 @@ span.line{
 .footer .email .form-group input{
     width:78%;
     background-color: black;
-    height: 40px;
+    height: 50px;
     border: 1px solid white;
     border-radius: 8px;
     padding: 12px;
@@ -198,7 +239,7 @@ span.line{
 }
 .footer .email .form-group input::placeholder{
     color: white;
-    font-size: 9px;
+    font-size: 12px;
 }
 .footer .email .form-group button{
     width: 20%;
@@ -207,20 +248,21 @@ span.line{
 }
 .footer h4{
     margin-bottom: 30px;
-    font-size: 12px;
-    font-weight: 400;
+    font-size: 14px;
+    font-weight: 450;
     color: azure;
 }
 .footer a{
-    font-size: 10px;
+    font-size: 13px;
     color: rgb(129, 129, 130);
 }
 .footer h6{
+    font-size: 13px;
     margin-top: 50px;
     font-weight: 400;
     color: rgb(129, 129, 130);
 }
 .footer h2{
-    font-size: 21px;
+    font-size: 28px;
     font-weight: 470;
 }
