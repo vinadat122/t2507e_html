@@ -17,8 +17,8 @@
                     <p>Up to 40% off Best-Selling Furniture.<a href="#"><u>Shop Now</u></a></p>
                 </div>
                 <div class="top-right">
-                    <p>ENGLISH</p>
-                    <p>USD</p>
+                    <a href="#"><p>ENGLISH</p></a>
+                    <a href="#"><p>USD</p></a>
                 </div>
             </div>
             <div class="header-bottom">
@@ -35,7 +35,7 @@
                     <img src="images/logo_nooni"/>
                 </div>
                 <div class="bottom-right">
-                    <img src="images/logo_icon.png"/>
+                    <a href="#"><img src="images/logo_icon.png"/></a>
                 </div>
             </div>
             <span></span>
@@ -43,16 +43,16 @@
     </header>
     <main class="section main">
         <div class="container">
-            <div class="top"><p> Home / My Account</p></div>
+            <div class="top"><p> <a href="#">Home</a>&nbsp; / &nbsp;My Account</p></div>
             <div class="main-1">
-                <a href="#" class="dash">Dashboard</a>
+                <a href="#">Dashboard</a>
                 <a href="#">Orders</a>
                 <a href="#">Downloads</a>
                 <a href="#">Addresses</a>
-                <a href="#">Account details</a>
+                <a href="#" class="acc">Account details</a>
                 <a href="#">Log out</a>
             </div>
-            <span></span>
+            <span class="span"></span>
             <form action="#" method="get">
                 <div class="a">
                     <label>Display name&nbsp;<span class="required">*</span></label>
@@ -61,24 +61,26 @@
                         in the account section and in reviews</i>
                 </div>
                 <div class="b">
-                    <label>Email address&nbsp;<span class="required">*</span></label>
+                    <label><p>Email address&nbsp;</p><span class="required">*</span></label>
                     <input type="email" name="cust_mail" placeholder="#user email" required/>
                 </div>
                 <div class="c">
                     <fieldset>
                         <legend>Password change</legend>
-                        <div>
-                            <label>Current password (leave blank to leave unchanged)</label>
-                            <input type="password" name="old_password"/>
-                        </div>
-                        <div>
-                            <label>New password (leave blank to leave unchanged)</label>
-                            <input type="password" name="new_password"/>
-                        </div>
-                        <div>
-                            <label>Confirm new password</label>
-                            <input type="password" name="new_password_confirm"/>
-                        </div>
+                        <div class="field">
+                            <div>
+                                <label>Current password (leave blank to leave unchanged)</label>
+                                <input type="password" name="old_password" required/>
+                            </div>
+                            <div>
+                                <label>New password (leave blank to leave unchanged)</label>
+                                <input type="password" name="new_password" required/>
+                            </div>
+                            <div>
+                                <label>Confirm new password</label>
+                                <input type="password" name="new_password_confirm" required/>
+                            </div>
+                            </div>
                     </fieldset>
                 </div>
                 <div class="d">
