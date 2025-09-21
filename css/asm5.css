@@ -120,8 +120,36 @@ a:hover{
 }
 .main .main-1{
     display: flex;
-    gap: 50px;
+    width: 100%;
+    gap: 3%;
     margin-top: 20px;
+}
+.col-x{
+    width: 60%;
+}
+.col-y{
+    width: 20%;
+}
+.col-z{
+    width: 20%;
+    text-align: right;
+    font-weight: 600;
+}
+.oder-infor{
+    display: flex;
+    width: 100%;
+    margin-bottom: 30px;
+}
+.oder-infor h4{
+    flex: 1;
+}
+.group-oder-infor{
+    margin-bottom: 60px;
+}
+.more-infor{
+    justify-content: flex-end;
+    font-weight: 600;
+    font-style: italic;
 }
 .main .main-1 a{
     text-transform: uppercase;
@@ -277,6 +305,13 @@ table{
   border-collapse: collapse;
   margin-bottom: 100px;
   margin-top: 50px;
+}
+.oders-table{
+    font-size: 15px;
+}
+.oders-details{
+    margin-top: 20px;
+    font-style: italic;
 }
 table th{
     text-align: left;
