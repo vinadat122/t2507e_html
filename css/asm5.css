@@ -339,9 +339,19 @@ table td{
     width: 24%;
     text-align: right;
 }
-.col-e button{
-    width: 100px;
-    height: 40px;
+.col-e .btn{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.col-e .btn:hover{
+    transform: rotate(20deg);
+    transition: all 0.3s ease;
 }
 .main .span{
     display: inline-block;
