@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NOONI&reg; Fashion</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kaushan+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">   
@@ -54,67 +53,39 @@
                 <a href="#">Log out</a>
             </div>
             <span class="span"></span>
-            <div class="text1">
-                <p>The following addresses will be used on the checkout page by default.</p>
-            </div>
-            <div class="infor">
-                <div class="a">
-                    <div class="b">
-                        <h3>BILLING ADDRESS</h3>
-                        <a href="#"><h4><i class="fa-solid fa-pencil"></i>&nbsp;EDIT</h4></a>
-                    </div>
-                    <div class="menu-information">
-                        <div class="icon-user"><i class="fa-solid fa-user"></i><i>#user_name</i></div>
-                        <div class="c">
-                            <div>
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
-                            <div class="profile-menu">
-                                <i>#Country_Region</i>
-                                <i>#Stress_address</i>
-                                <i>#Town_City</i>
-                                <i>#Postcode_ZIP</i>
-                            </div>
-                        </div>
-                        <div class="c">
-                            <div><i class="fa-solid fa-phone"></i></div>
-                            <div><i>(+84)098 888 8888</i></div>
-                        </div>
-                        <div class="c">
-                            <div><i class="fa-solid fa-envelope"></i></div>
-                            <div><i>#Customer_email</i></div>
-                        </div>
-                    </div>
+            <form action="#" method="get">
+                <div class="db top-form">
+                    <label>Display name&nbsp;<span class="required">*</span></label>
+                    <input type="text" name="cust_name" placeholder="#user name" required/>
                 </div>
-                <div class="a">
-                    <div class="b">
-                        <h3>SHIPPING ADDRESS</h3>
-                        <a href="#"><h4><i class="fa-solid fa-pencil"></i>&nbsp;EDIT</h4></a>
-                    </div>
-                    <div class="menu-information">
-                        <div class="icon-user"><i class="fa-solid fa-user"></i><i>#user_name</i></div>
-                        <div class="c">
-                            <div>
-                                <i class="fa-solid fa-location-dot"></i>
-                            </div>
-                            <div class="profile-menu">
-                                <i>#Country_Region</i>
-                                <i>#Stress_address</i>
-                                <i>#Town_City</i>
-                                <i>#Postcode_ZIP</i>
-                            </div>
-                        </div>
-                        <div class="c">
-                            <div><i class="fa-solid fa-phone"></i></div>
-                            <div><i>(+84)098 888 8888</i></div>
-                        </div>
-                        <div class="c">
-                            <div><i class="fa-solid fa-envelope"></i></div>
-                            <div><i>#Customer_email</i></div>
-                        </div>
-                    </div>
+                <div class="db">
+                    <label>Country / Region&nbsp;<span class="required">*</span></label>
+                    <input type="text" name="cust_name" placeholder="#country_region" required/>
                 </div>
-            </div>
+                <div class="db">
+                    <label>Street address&nbsp;<span class="required">*</span></label>
+                    <input type="text" name="cust_name" placeholder="#Street_address" required/>
+                </div>
+                <div class="db">
+                    <label>Postcode / ZIP (optional)</label>
+                    <input type="text" name="cust_name" placeholder="#Postcode_ZIP" required/>
+                </div>
+                <div class="db">
+                    <label>Town / City&nbsp;<span class="required">*</span></label>
+                    <input type="text" name="cust_name" placeholder="#Town_City" required/>
+                </div>
+                <div class="db">
+                    <label>Phone&nbsp;<span class="required">*</span></label>
+                    <input type="text" name="cust_name" placeholder="#Phone" required/>
+                </div>
+                <div class="db">
+                    <label>Email address&nbsp;<span class="required">*</span></label>
+                    <input type="text" name="cust_name" placeholder="#Email_address" required/>
+                </div>
+                <div class="db">
+                    <button type="submit">SAVE ADDRESS</button>
+                </div>
+            </form>
         </div>
         <span class="line"></span>
     </main>
