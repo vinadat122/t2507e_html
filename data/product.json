@@ -1,0 +1,23 @@
+{
+    "name": "iphone 17 air",
+    "price": 32000000,
+    "image": "images/wheel.jpg",
+    "description": "dòng sản phẩm mới",
+    "stock": { 
+        "qty": 9
+    },
+    "reviews": [ 
+        {        
+            "rate": 5,
+            "review": "nhìn long lanh đẹp lắm"
+        },
+        {
+            "rate": 4,
+            "review": "cũng khá ổn, giá cao"
+        },
+        {
+            "rate": 3,
+            "review": "cùi"
+        }
+    ]
+}

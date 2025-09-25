@@ -1,0 +1,61 @@
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    position: relative;
+}
+.menu li {
+    position: static;
+}
+.menu > li {
+    
+}
+.menu a {
+    display: block;
+    padding: 10px 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.menu a:hover {
+    background: #ed0000;
+}
+.submenu {
+    width: 100%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100%; 
+    left: 0%;
+    display: none;
+    background: #ffffff;
+}
+.submenu ul{
+    border:1px solid #ed0000;
+    padding-left: 0;
+}
+.submenu li {
+    list-style: none;
+    padding: 10px;
+    color: white;
+
+}
+.submenu-shop{
+    border:1px solid #ed0000;
+    margin: 0;
+    width: 20%;
+}
+.submenu li a{
+    display: inline-block;
+    transition: transform 0.3s ease;
+    
+}
+.submenu li a:hover {
+    transform: scale(1.2);
+    background:white;
+}
+.menu li:hover .submenu {
+    display: flex;
+    gap: 40px;
+}

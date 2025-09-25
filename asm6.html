@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASM6 WEATHER</title>
+    <link rel="stylesheet" href="css/asm6.css">
+</head>
+<body>
+    <main class="section main">
+        <div class="container">
+            <div class="main-tile">
+                <div>
+                    <a href="#">Home</a>
+                    <span class="icon-main-tile">/</span>
+                    <span class="current">Checkout</span>
+                </div>
+                <h1>Checkout</h1>
+            </div>
+            <div class="main-content">
+                <div class="coupon-checkout">
+                    <div class="ask-coupon">
+                        <p>Have a coupon?
+                            <button type="button" id="show-coupon">Click here to enter your code</button>
+                        </p>
+                    </div>
+                    <form id="hidden" action="#" method="get" class="form-coupon">
+                        <p>If you have a coupon code, please apply it below.</p>
+                        <div class="form-coupon-input">
+                            <input type="text" name="coupon-code" placeholder="coupon code" required/>
+                            <button type="submit">APPY COUPON</button>
+                        </div>
+                    </form>
+                </div>
+                <form action="#" method="post" class="form-subbmit-checkout">
+                    <div class="infor-ship">
+                        <div class="tab1 input-infor">
+                            <h3>BILLING DETAILS</h3>
+                            <div>
+                                <div class="form-group">
+                                    <label>Name<span class="required">&nbsp;*</span></label>
+                                    <input type="text" name="name" placeholder="#name" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Company name (optional)</label>
+                                    <input type="text" name="company_name"/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Country / Region<span class="required">&nbsp;*</span></label>
+                                    <input type="text" name="country" placeholder="#country" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Street address<span class="required">&nbsp;*</span></label>
+                                    <input type="text" name="street_add" placeholder="#street" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Postcode / ZIP (optional)</label>
+                                    <input type="number" name="full_name"/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Town / City<span class="required">&nbsp;*</span></label>
+                                    <input type="text" name="city" placeholder="#city" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Phone<span class="required">&nbsp;*</label>
+                                    <input type="tel" name="phone" placeholder="#phone" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Email address<span class="required">&nbsp;*</label>
+                                    <input type="email" name="email" placeholder="#email" required/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" name="diffrence-add" value="yes">
+                                <h4>Ship to a different address?</h4>
+                            </label>
+                        </div>
+                        <div class="tab2 input-infor">
+                                <div class="form-group">
+                                    <label>Name<span class="required">&nbsp;*</span></label>
+                                    <input type="text" name="name" placeholder="#name" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Company name (optional)</label>
+                                    <input type="text" name="company_name"/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Country / Region<span class="required">&nbsp;*</span></label>
+                                    <input type="text" name="country" placeholder="#country" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Street address<span class="required">&nbsp;*</span></label>
+                                    <input type="text" name="street_add" placeholder="#street" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Postcode / ZIP (optional)</label>
+                                    <input type="number" name="full_name"/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Town / City<span class="required">&nbsp;*</span></label>
+                                    <input type="text" name="city" placeholder="#city" required/>
+                                </div>
+                                <div class="form-group">
+                                    <label>Phone<span class="required">&nbsp;*</label>
+                                    <input type="tel" name="phone" placeholder="#phone" required/>
+                                </div>
+                        </div>
+                        <div class="oder-note">
+                            <label>Order notes (optional)</label>
+                            <textarea name="oder-note" placeholder="Notes about your oder, e.g. special notes for delivery."></textarea>
+                        </div>
+                    </div>
+                    <h3>YOUR ODER</h3>
+                    <div class="oder-review">
+                        <table class="top-oder-review">
+                            <thead>
+                                <tr>
+                                    <th></th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                            </tbody>
+                            <tfoot>
+                                <tr></tr>
+                                <tr>
+                                    <ul>
+                                        <li></li>
+                                        <li></li>
+                                    </ul>
+                                </tr>
+                                <tr></tr>
+                            </tfoot>
+                        </table>
+                        <div class="bottom-oder-review">
+                            <ul>
+                                <li>
+                                    <input>
+                                    <label></label>
+                                </li>
+                                <li>
+                                    <input>
+                                    <label></label>
+                                </li>
+                                <li>
+                                    <input>
+                                    <label></label>
+                                </li>
+                            </ul>
+                            <div class="place-oder-review">
+                                <div>
+                                    <p>Lorem ipsum dolor sit amet, modo quaestio vim id, mea vide mucius utamur in.
+                                         Vix aliquip erroribus euripidis at, ut tollit feugait eos. 
+                                         Pri no assueverit dissentias comprehensam, te suas percipitur eum, eum scripta 
+                                         tamquam nusquam et. Ea oratio possim cum.</p>
+                                    <p>Aliquip instructior vix eu, an mei sale accumsan vulputate. Ea ius delectus
+                                         phaedrum reformidans. Mei autem indoctum ex, dicit iisque laboramus pro te. 
+                                         Qui eius eirmod no. Habeo paulo definitiones ne est, tantas aliquip disputando
+                                         te vix. Ne cum omnes probatus. Sit id dicit alienum omittantur.</p>
+                                    <p>Ad praesent molestiae dissentiunt duo, ex alia zril vim. Nemore conclusionemque 
+                                         te mea, ei enim tempor lobortis usu. Dolor repudiare et vel, movet recusabo 
+                                         evertitur per ad. Mutat feugiat splendide ex vix, ipsum ceteros antiopam ne vix,
+                                         vituperata assueverit ex vis.</p>
+                                    <p>Dicunt suavitate ut quo, id qui saepe essent prodesset. Ad sed augue labore, sea 
+                                         salutatus efficiendi reformidans ei. At porro hendrerit theophrastus est. 
+                                         Has te nonumes facilis.</p>
+                                    <p>Postea omittam prodesset qui et, pri aeque graeci lucilius no. Ea vix ludus 
+                                         iudicabit, ut volumus argumentum scribentur his. Liber blandit quaerendum 
+                                         vix at. Ignota integre dignissim eu quo, ei verear mediocrem persequeris sit.
+                                         Vix ad virtute euripidis, in aperiam periculis patrioque usu.</p>
+                                </div>
+                                <div>
+                                    <label></label>
+                                    <input type="radio"/>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
